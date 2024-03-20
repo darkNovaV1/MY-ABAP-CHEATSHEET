@@ -11,8 +11,20 @@
 > ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/389c4f13-58c7-4745-8d6d-8efdf45fe917)
 > customer requirement is when we type order type and press enter sold to party should be automatically filled with 1 defaultely.
 > ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/19f6ab41-28fb-43f1-b12a-a9711d08b609)
->
-> 
+
+
+> ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a2baa7b1-486f-4385-8757-a415b9c6f6dd)
+
+
+>steps
+- open va01 tcode
+- enter /h and enable debugging
+- hit enter and enter debugging
+- create breakpoint
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/917e698f-31d9-40e2-9340-0d290d8cb113)
+- press f8
+- and now we have to hit and trial and find the correct point and check whether our requirement is possible feasiblly or not.
+
 
 
 

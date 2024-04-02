@@ -56,6 +56,16 @@
 
 > ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a35903ac-a0ff-47c8-9060-d27aa98f5e75)
 > 😋🥂
+>
+> ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a1657aca-f404-43e6-8d1d-f48e489a6b37)
+
+
+# 💀 IMPORTANT POINTS 💀
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/b2fead2c-4d83-48c6-b462-9d273202f0a7)
+
+
+
 
 
 

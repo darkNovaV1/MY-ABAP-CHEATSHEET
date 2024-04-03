@@ -63,6 +63,10 @@
 >-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d1e00578-7a54-4c0f-a7c4-1a75d5c8d3ff)
 >-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/656e3f41-7ac4-4fe8-bb30-d7ac90f6cc9f)
 >-  now we will check and activate.
+>- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/bec7d6a4-adbf-49da-9c8c-1b1f1e6d0974)
+
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6a0b8da4-4eef-437f-b3fa-72e6fb4a7a94)
+
 
 
 

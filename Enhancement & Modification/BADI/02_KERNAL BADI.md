@@ -4,9 +4,18 @@
 badi who have enhancement spot are new badi and rest are classic badi.
 
 # Lets take the requiremnent and start working on that..
-### lets say client brings the requiremnt that we dont want this two additional buttons in mmo1 tcode.
+### lets say client brings the requiremnt that we dont want this two additional buttons in mmo1 tcode. iein 
+application toolbar.
+
+```
+-menubar
+-function keys
+-titlebar
+-application toolbar
+```
 
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/280f1f74-3007-40c3-a115-0778fe09f241)
+
 
 
 

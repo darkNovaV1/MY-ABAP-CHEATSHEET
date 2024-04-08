@@ -66,6 +66,30 @@
 >- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/bec7d6a4-adbf-49da-9c8c-1b1f1e6d0974)
 
 >-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6a0b8da4-4eef-437f-b3fa-72e6fb4a7a94)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#extra..
 >-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0b103c40-02be-4a30-a572-3530193b8339)
 >-  now we left with one part we need to write the logic to exclude/hide that two buttons.
 >-  now we wnt to write the code in this method.

@@ -66,6 +66,40 @@
 >- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/bec7d6a4-adbf-49da-9c8c-1b1f1e6d0974)
 
 >-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6a0b8da4-4eef-437f-b3fa-72e6fb4a7a94)
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0b103c40-02be-4a30-a572-3530193b8339)
+>-  now we left with one part we need to write the logic to exclude/hide that two buttons.
+>-  now we wnt to write the code in this method.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e2565ab0-3078-4a2f-b613-b22b55f286c7)
+>-  if we check the parameters of this method we found this internal table,it clearly says you can pass the functions that are activated or deactivated.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6980ae10-7591-4743-96f3-e898dea749aa)
+>-  so we will simply pass the function code of that two buttons.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/2af34bdd-88da-4de8-973b-286615b7a94d)
+>-  we will check the function code of that two buttons from sstem gui status.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4e2af65b-e584-479d-975a-abb05140ffc9)
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/17dcc382-4e31-40bc-b5e3-1e2685017a9d)
+>-  we will goto change mode of this implementation,
+>-  now in implementing class
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/9de484c8-87d7-4ef3-992a-b2df0747531c)
+>-  in ths particular method we will write the code.
+>-  we need to fill this internal table. we will pass the function code that we want to deactivate.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/056b3302-87f9-4b08-8272-e69a8d7a4b58)
+>-  we will create workarea of that particular structure.
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/dc95887c-d560-4c7a-85e1-2a676160495e)
+>-  rip buttons
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/7cd7e629-b3ef-48bd-8276-e7132e50b99a)
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/7bd38dc8-d642-4e18-b55e-c63e548d967c)
+>-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e352fe08-4568-4279-a1c6-8c03c4892e39)
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -58,9 +58,28 @@
 
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/46df8473-d957-40cd-99af-8aa700736d5c)
 
-# EXCEPTION IN FUNCTION MODUle,
+# EXCEPTION IN FUNCTION MODUlE,
+
+### if any of the input is zero we will raise a exception.
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/67192305-5a9e-49a6-895f-b7e2f588d41c)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/98b855e9-9d86-4f6c-bc72-073c36017fc5)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a420b1ba-2c5a-4ac6-bcdc-fa819333d49d)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4fdc6f97-d22c-41f7-a1bc-164fe739a756)
+
+>[!NOTE]
+> now we will call the function module again so that we get the refreshed funciton module with exception.
+>![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/3b7d4a5b-2940-4492-a196-ee313d27b186)
+> we will maintain one message in se91
 
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/760ce70d-1a9a-4a2e-8ac6-cab981f258e2)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/68ae3e07-fd3e-4599-9254-594dd62afa67)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/c65dd3bb-f323-4786-bafa-8020df34e61c)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/52e0c44e-8194-40ee-98de-9e6ddeb6f4d5)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/99c63580-d55e-47ab-b7a9-b3a12b967c5e)
+
+### we have seen how to use and build function modules now we wil see some complex example further.
 
 
 

@@ -27,7 +27,7 @@
 
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/fd3559d3-5ba3-41a5-bb80-3f3c0e8268cc)
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/606ceff6-c8b8-4ec9-b290-ea0559eabb7e)
-- ## finally in funciton moule export tab
+- ## finally in function module export tab
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e8ef9c1c-8014-40f8-89c2-a39e7952c66f)
 - 
 

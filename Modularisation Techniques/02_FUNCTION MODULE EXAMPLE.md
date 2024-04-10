@@ -29,7 +29,97 @@
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/606ceff6-c8b8-4ec9-b290-ea0559eabb7e)
 - ## finally in function module export tab
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e8ef9c1c-8014-40f8-89c2-a39e7952c66f)
+
+# LOGIC CODE
+
+- now we will goto sourcecode tab to write the logic.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/1c1cce4a-e3bd-479b-aa06-74b427a5e8ff)
+- what we need to do here is fetch data from header table from item table and combine it and save it to lt_final which is export parameter of function module.
+- first thing first we need a 4 column from header table so we will create structure and workarea for the same.
+-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a3a79750-aa7a-4fad-935d-6a037346a5ff)
+-  complete code snippet attached at last.
+# 
+- now from this two internal table we need to fill the final internal table.
+- now we have to add data to our final internal table and how can we do that? we use append statement
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ed584c54-2e6e-4de3-ab07-48e4248085a9)
+- we need multiple loops read table not suitable here ..why?
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/678ea383-99d1-4092-9565-e00e2cea0626)
+
+```abap
+FUNCTION zfm_order_display.
+*"----------------------------------------------------------------------
+*"*"Local Interface:
+*"  IMPORTING
+*"     REFERENCE(PONO) TYPE  ZORDH__28-ONO
+*"  EXPORTING
+*"     REFERENCE(LT_FINAL) TYPE  ZTSTR_ORDER_DTL
+*"----------------------------------------------------------------------
+  TYPES : BEGIN OF lty_data,
+            ono   TYPE zordh__28-ono,
+            odate TYPE zordh__28-odate,
+            pm    TYPE zordh__28-pm,
+            curr  TYPE zordh__28-curr,
+          END OF lty_data.
+
+  DATA: lt_data  TYPE TABLE OF lty_data,
+        lwa_data TYPE lty_data.
+
+  TYPES: BEGIN OF lty_data1,
+           ono   TYPE zori_28-ono,
+           oin   TYPE zori_28-oin,
+           icost TYPE zori_28-icost,
+         END OF lty_data1.
+
+  DATA: lt_data1  TYPE TABLE OF lty_data1,
+        lwa_data1 TYPE lty_data1,
+        wa_final type zstr_order_dtl. "we dont need to create types structure here as we already created global sturcture of 6 columns.
+
+
+  SELECT ono odate pm curr
+    FROM zordh__28
+    INTO TABLE lt_data
+    WHERE ono = pono. "pono is func module import parameter
+
+IF lt_data is NOT INITIAL.
+SELECT ono oin icost
+  FROM zori_28
+  INTO table lt_DAta1
+  FOR ALL ENTRIES IN lt_data
+  WHERE ono = lt_data-ono.
+ENDIF.
+
+LOOP AT lt_data INTO lwa_data.
+   LOOP at lt_data1 INTO lwa_data1 WHERE ono = lwa_data-ono.
+     wa_final-ono = lwa_data-ono.
+     wa_final-odate = lwa_data-odate.
+     wa_final-pm = lwa_data-pm.
+     wa_final-curr = lwa_data-curr.
+     wa_final-oin = lwa_data1-oin.
+     wa_final-icost = lwa_data1-icost.
+     APPEND wa_final to lt_final. "lt_final is export parameter
+     CLEAr: wa_final.
+     ENDLOOP.
+ENDLOOP.
+
+
+ENDFUNCTION.
+```
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/884d6bd8-3c1e-4fd8-858c-961a7f2d12e3)
+
+## okay so its working but customer dont run function module so we need to call the function module from program.
+#
+- we will create the new program
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/cda7f594-5c20-4856-9bd2-75bf7f37ec40)
 - 
+
+- 
+
+
+
+
+
+
 
 
 

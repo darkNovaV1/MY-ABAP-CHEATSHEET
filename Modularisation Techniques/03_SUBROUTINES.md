@@ -8,6 +8,38 @@
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/49cb87f4-b604-43d3-a6c9-4e8372540732)
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ea225e5e-e729-49bd-976f-0a368ecca2ff)
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/3f9246a3-ea35-4a00-b314-f71a1c9e0fbe)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/7526f655-33d1-4ad7-9532-92426fc84cc7)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/447fb80e-c7ab-44c4-af88-bd1d072f1390)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e8e8e8a0-45ae-4d7d-86dd-0b27dd0b3786)
+
+# program 2
+- now we will create the same program with parameters.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/87389a47-a116-4ac5-8b1b-e361c29c24a9)
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6af1ae9e-2881-427c-b1be-4b3d97dc081e)
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/9ea2cc88-95c5-4727-bf55-e43819d2fd06)
+- pv means perform variable its a standard practice to use pv.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0098e583-9f5f-484d-8437-a4744824e531)
+- we can give data type like this, its optional in this case but its compulsary when we work with internal tables structures etc.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/c2b2aaf2-bc55-4adc-a10b-27339e14dd9f)
+- 
+
+
+# HOW TO USE SUBROUTINE IN ANOTHER PROGRAM ?
+
+- CREATE A NEW PROGRAM
+- THIS IS HOW TO USE PASS THE PROGRAM NAME WHERE YOUR SUB ROUTINE EXISTS LIKE THIS
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/5232aa3b-2b2f-4cc3-94ac-68e9d8beba63)
+-  THIS IS ANOTHER SYNTAX WE CAN USE ANY OF THEM
+-  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0c9611bc-2829-43bc-8b7f-2de0ea407306)
+
+  # IF WE CHANGE THE NAME OF SUBROUTINE IN ORIGINAL PROGRAM THEN ALL THE PLACE WHERE THAT SUBROUTINE USED WILL BLAST # 😡
+  - SO WHATS THE SOLUTION ..LETS CHECK OUT
+  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ee0d7710-9090-4eea-a367-16d741bc02f7)
+- SIMPLY USE THE KEYWORD IF FOUND TO AVOID THE DUMP.
+
+
+
+
 
 
 

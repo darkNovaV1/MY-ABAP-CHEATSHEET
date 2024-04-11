@@ -112,11 +112,20 @@ ENDFUNCTION.
 - we will create the new program
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/cda7f594-5c20-4856-9bd2-75bf7f37ec40)
 - 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/935d24ba-38a0-4297-93fc-57a89e34aa55)
 
-- 
+- ## we are getting the run time errror here in this program
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/98242b72-bb07-4640-87fb-fa4a69031272)
 
+## lets check how to resolve this
+- its a simple solution as we all now that select option is an internal table with header line so in that sence we are passing the wokarea to the funciton module thats why there is an error
+- so to pas an internal table we will add [] while passing internal tabl else its resembels workarea.
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/167c7371-2d73-4191-b5c7-9078aa5aacff)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0e913cc6-ab65-44b3-827c-4d848f9d2ad8)
 
+# thats all
+# 🛺 happy journrey ahead 
 
 
 

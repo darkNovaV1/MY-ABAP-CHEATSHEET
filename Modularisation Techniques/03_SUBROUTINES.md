@@ -32,7 +32,7 @@
 -  THIS IS ANOTHER SYNTAX WE CAN USE ANY OF THEM
 -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0c9611bc-2829-43bc-8b7f-2de0ea407306)
 
-  # IF WE CHANGE THE NAME OF SUBROUTINE IN ORIGINAL PROGRAM THEN ALL THE PLACE WHERE THAT SUBROUTINE USED WILL BLAST # 😡
+  # IF WE CHANGE THE NAME OF SUBROUTINE IN ORIGINAL PROGRAM THEN ALL THE PLACE WHERE THAT SUBROUTINE USED WILL BLAST  😡
   - SO WHATS THE SOLUTION ..LETS CHECK OUT
   ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ee0d7710-9090-4eea-a367-16d741bc02f7)
 - SIMPLY USE THE KEYWORD IF FOUND TO AVOID THE DUMP.
@@ -41,7 +41,96 @@
 ___
 
 # PASS BY VALUE AND PASS BY REFERENCE
-- # pass by value
+- ### pass by value- ### pass by reference
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/2622a44a-d6c1-4c82-8d73-ac48d4929aab)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/f2ad5f3c-ec71-4b62-9d3f-54080d8241b5)
+- by default its pass by reference always
+- ##  if you want to pass by value we have to wrap variabble with value() keyword.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4d0ea438-0098-4637-835b-68bbb81b3db6)
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/cc40dedf-fa13-4ed3-8686-8308185983e3)
+
+ ### we will understand more with the example
+ ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/5a976270-8b3a-44f9-8371-7507e2a734a9)
+- this is our sample program of appending a data to an internal table.
+
+
+```abap
+TYPES : BEGIN OF lty_data,
+          ono TYPE zdeono__28,
+          pm  TYPE zdepm__28,
+        END OF lty_data.
+
+DATA: lt_data TYPE TABLE OF lty_data.
+DATA: lwa_data TYPE lty_data.
+
+
+lwa_data-ono = 1.
+lwa_data-pm = 'D'.
+APPEND lwa_data TO lt_data.
+CLEAR : lwa_data.
+
+lwa_data-ono = 2.
+lwa_data-pm = 'C'.
+APPEND lwa_data TO lt_data.
+CLEAR : lwa_data.
+
+lwa_data-ono = 3.
+lwa_data-pm = 'D'.
+APPEND lwa_data TO lt_data.
+CLEAR : lwa_data.
+
+lwa_data-ono = 4.
+lwa_data-pm = 'D'.
+APPEND lwa_data TO lt_data.
+CLEAR : lwa_data.
+
+LOOP AT lt_data INTO lwa_data.
+  IF lwa_data-ono = 4.
+    lwa_data-pm = 'N'.
+    MODIFY lt_data FROM lwa_data TRANSPORTING pm.
+  ENDIF.
+ENDLOOP.
+
+
+read operation
+WRITE : / 'reading data'.
+READ TABLE lt_data INTO lwa_data WITH KEY ono = 43.
+IF sy-subrc = 0.
+  WRITE : / lwa_data-ono , lwa_data-pm.
+ELSE.
+  WRITE : / 'unsuccessful'.
+ENDIF.
+WRITE : / 'reading data done'.
+
+
+LOOP AT lt_data INTO lwa_data.
+  WRITE : / lwa_data-ono , lwa_data-pm.
+ENDLOOP.
+```
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/8d019597-dcbf-4e30-9bc4-be1afb8933ac)
+
+- we can optimize our repitative code with perform statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
 
 

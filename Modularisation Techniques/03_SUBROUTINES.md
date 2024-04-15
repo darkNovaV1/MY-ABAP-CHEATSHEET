@@ -112,6 +112,30 @@ ENDLOOP.
 
 - we can optimize our repitative code with perform statement.
 
+>[!TIP]
+>to use internal table in sub routines we have to compulsory create global structure.
+
+```abap
+PERFORM setdata USING '1' 'C' CHANGING lt_data.
+PERFORM setdata USING '2' 'D' CHANGING lt_data.
+PERFORM setdata USING '3' 'N' CHANGING lt_data.
+PERFORM setdata USING '4' 'C' CHANGING lt_data.
+
+form setdata USING pv_ono TYPE zordh__28-ono
+                  pv_pm type zordh__28-pm
+             CHANGING lt_Data.
+  WRITE: / pv_ono , pv_pm.
+  ENDFORM.
+  ```
+
+>[!TIP]
+>if this doesnt work for any reason make the structure of internal table global.
+>in case of old systems and doensnt work
+>then create table type and use
+>![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d9a65ef2-d9ca-40b3-ab25-1f611daef4f0)
+>
+
+
 
 
 

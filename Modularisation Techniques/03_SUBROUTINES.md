@@ -134,6 +134,9 @@ form setdata USING pv_ono TYPE zordh__28-ono
 >then create table type and use
 >![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d9a65ef2-d9ca-40b3-ab25-1f611daef4f0)
 >
+>
+
+
 
 
 

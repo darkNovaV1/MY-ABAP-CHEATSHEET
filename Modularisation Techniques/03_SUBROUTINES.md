@@ -135,6 +135,25 @@ form setdata USING pv_ono TYPE zordh__28-ono
 >![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d9a65ef2-d9ca-40b3-ab25-1f611daef4f0)
 >
 >
+...
+.
+.
+.
+.
+.
+....
+
+
+
+
+
+# Comparisions and differences.
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/90f3a601-9dc2-4c57-9f0b-bbcfc522fbf0)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/506fc045-fff1-4f9a-8846-572e892216da)
+
+
+
 
 
 

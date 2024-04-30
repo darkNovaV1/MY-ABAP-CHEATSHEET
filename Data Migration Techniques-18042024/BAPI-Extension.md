@@ -32,7 +32,39 @@
     -   ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/f7489570-1446-4a3b-a682-aefce93ef6d3)
     -   we will open this structure in se11
     -   ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/9edb1346-7e00-411f-b803-844ee443077c)
-    -   
+    -  ## **we will add two fields in this particular structure add  as well as mara  table afterward**
+    -  so whenever we are going for fields or columns the first thing we need is domains and data element so first we will f through it.
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/58c0a065-927f-499c-a73e-89e926285c02)
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0537525f-3292-41a2-a4d1-5aae2ff40557)
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/3c13a914-36e3-421f-a9cf-0aa2577db662)
+    -  check and activate
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/7edba8b1-364b-404a-8a2b-64a88f39f1a9)
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e4d2f1e3-4c9f-42da-aad1-53a29439f855)
+    -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/25c23579-d61c-4aad-a4ec-9baf59fc72f2)
+    -  ## our domains are ready
+    -  #
+    -  - noww we will create data elements.
+       - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d37a23cb-5a12-49a0-a6c8-538d19f126c9)
+       - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ccd7a4a0-52db-4949-9e7b-3a80aa401468)
+       - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/dec9bc04-29d5-4ed5-ac75-ca8de9899440)
+       - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/08a55dcc-da5c-49b7-b4bf-7fd8b9249116)
+       - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/42d1c86c-ddd7-4798-9243-c75ab89f4d81)
+       - **so we have created 2 domains and 2 dataelements which we will use further..**
+
+>[!NOTE]
+>whenever we have this type of requirement the first thing is we add fields to standard BAPI and then to database table.
+>
+
+
+
+
+
+
+
+
+
+
+
 
       
 

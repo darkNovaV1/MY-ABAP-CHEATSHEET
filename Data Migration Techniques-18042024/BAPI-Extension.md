@@ -56,6 +56,17 @@
 >
 
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a05c9d8b-5562-4991-8a1b-765329fa95a1)
+
+- now we have to add fields in this structure.
+- but its sap standard so we cant just change and add ..
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/85fc0129-9c0a-4846-9514-38e359c40ee2)
+- instead we can append structure.
+- we will click and create append
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4444187b-db02-43a7-b594-2e136610ac58)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a2f536a1-48d4-4810-8a29-874de1ed5ade)
+start name with ZA its a customed append structure. vid30..3 mnt
+
 
 
 

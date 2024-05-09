@@ -33,7 +33,7 @@
     -   we will open this structure in se11
     -   ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/9edb1346-7e00-411f-b803-844ee443077c)
     -  ## **we will add two fields in this particular structure add  as well as mara  table afterward**
-    -  so whenever we are going for fields or columns the first thing we need is domains and data element so first we will f through it.
+    -  so whenever we are going for fields or columns the first thing we need is domains and data element so first we will go through it.
     -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/58c0a065-927f-499c-a73e-89e926285c02)
     -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0537525f-3292-41a2-a4d1-5aae2ff40557)
     -  ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/3c13a914-36e3-421f-a9cf-0aa2577db662)
@@ -51,6 +51,8 @@
        - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/42d1c86c-ddd7-4798-9243-c75ab89f4d81)
        - **so we have created 2 domains and 2 dataelements which we will use further..**
 
+
+ 
 >[!NOTE]
 >whenever we have this type of requirement the first thing is we add fields to standard BAPI and then to database table.
 >
@@ -58,17 +60,35 @@
 
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a05c9d8b-5562-4991-8a1b-765329fa95a1)
 
-- now we have to add fields in this structure.
+- now we have to add fields in this structure and lastly we will add to mara table also.
+- so we will add custom fields in 3 places:
+- in BAPI_TE_MARA structure
+- in BAPI_TE_MARAX structure
+- lastly in mara table.
+
 - but its sap standard so we cant just change and add ..
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/85fc0129-9c0a-4846-9514-38e359c40ee2)
 - instead we can append structure.
 - we will click and create append
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4444187b-db02-43a7-b594-2e136610ac58)
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/a2f536a1-48d4-4810-8a29-874de1ed5ade)
-start name with ZA its a customed append structure. vid30..3 mnt
+start name with **ZA** its a customed append structure.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/153e27dd-87a4-429a-9204-e84b39158951)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/f7b7b735-b5c3-4563-9ef0-aa6d2b0a4d94)
+
+now same way we will add fields to second structure.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d84825f9-f553-4649-acf5-e58d3eebcdb9)
+we have added in both bapi now we will add to actual mara table coz at last data will get stored in mara table only.
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/b1b6312a-2c60-41af-8cc8-859b7d6c6baa)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e67bd981-b432-4b5c-8518-3c30bd8eeb20)
 
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/c09da202-39d2-4377-89b2-f26160e2625e)
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0af24af6-d189-4282-a7b8-31e5a3accffb)
+
+now next we will write the logic to add data.
 
 
 

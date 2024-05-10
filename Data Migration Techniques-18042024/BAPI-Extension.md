@@ -89,7 +89,40 @@ we have added in both bapi now we will add to actual mara table coz at last data
 ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/0af24af6-d189-4282-a7b8-31e5a3accffb)
 
 now next we will write the logic to add data.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/cfaff517-deab-4f19-a096-23a22a7fd4a7)
+now we will add 2 new fields in our program structure.
 
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/220a9080-3846-4b6b-9561-6e2a14f92b29)
+
+now we have data in our internal field, now we will pass to this SAP BaPI funciton...
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/fb302a1e-4f22-43d4-ab98-88966b430ddd)
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/b2989957-36f7-455b-b72e-a045fb27c3b1)
+we wil declare two sorkarea for bapi and bapix function.
+
+whatever the values are coming from legacy file, we will pass to this workarea.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ced891a4-0c84-45c0-9441-b776652aef90)
+we will fill both the structures.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/39d65430-2163-421c-81e8-8dd2bfec6ceb)
+we will clear it after append.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/b0177000-e12f-4613-a214-a44010b46992)
+now to pass it to BAPI we will use this two important parameters.
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/56959fe6-4402-4c15-be40-7ecc9557e397)
+we will declare two internal tables.
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/1fe7eb9f-59da-49c5-87c7-833a60f3ab8f)
+also we will declare and workares
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/9e18c200-0f35-44d2-a29f-550d46dd9b42)
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/4e14d814-c83d-463c-97dc-f40b178c492d)
+
+
+
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/d76b1a4b-4f80-40cf-9aec-8417916e4f67)
+now we will start working on logic
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/71bcfb4a-dce7-424e-9260-d0a89eb2c816)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/58ed3cb5-402f-4cad-9b02-a67f6185db85)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/2c3488e5-86f4-44a7-93ef-c9cadb54e5c4)
 
 
 

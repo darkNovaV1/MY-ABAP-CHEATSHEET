@@ -49,7 +49,36 @@
 - ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/03b989af-e80d-4020-beb6-6a27985a4267)
 
 - ### correction - smartform name in quotes as string
-- ![Uploading image.png…]()
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/08ffc8bd-f5d3-4360-a6dd-9eae5f578907)
+
+- # to bypass select and output preview
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/ec0013fc-0a27-44dd-8182-2076214854b2)
+
+
+# SCRIPTING
+- now we will use JS SCRIPTING LANGUAGE to hide the "SO CREATED BY " text and "TO DATE" field if no data is passed from the input.
+- swipe layout a bit down
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/537fb403-5550-4765-aded-5df4e866cd0e)
+- choose the particular element and choose initialise.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/6996db6a-1230-467f-b3f5-b82427fea6ab)
+- select the element and write the code.
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/5a269a66-192c-4210-be1c-ac95cd2b1743)
+- ![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/e32096e9-7a56-4dfe-a01c-302d2c0859cf)
+- ## wrking condittion
+ ```js
+  if (this.rawValue != null && this.rawValue != "") {
+    this.presence = "visible";
+} else {
+    this.presence = "hidden";
+}
+  ```
+
+
+
+
+
+
+
 
 
 

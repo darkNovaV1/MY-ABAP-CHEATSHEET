@@ -76,3 +76,10 @@ WRITE: / lv_erdat ,
 ENDIF.
 
 ```
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/f2a66c01-5970-4015-9497-6d0a1131d70a)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/36be2402-ef59-45af-9194-9179170c426b)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/556eced5-96a5-45f7-8b3b-01ac3e2481e9)
+![image](https://github.com/bhuvabhavik/MY-ABAP-CHEATSHEET/assets/49744703/5989935f-56ee-4518-8895-018020e98341)
+
+
+

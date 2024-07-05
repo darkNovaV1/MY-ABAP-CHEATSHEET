@@ -45,7 +45,7 @@ This document contains useful tips and tricks for using ABAP Development Tools (
 Use `!` characters to define ABAP doc one line before the relevant statement.
 
 Example:
-\`\`\`abap
+```abap
 "! Creates an {@link IF_HTTP_CLIENT} object for the given URL and data. <br>
 "! You can use {@link IF_HTTP_CLIENT.METH:send} to execute your request.
 "!
@@ -54,7 +54,7 @@ Example:
 "! @parameter eo_httpc | HTTP client
 "! @parameter e_code | Error code
 "! @parameter e_msg | Error message
-\`\`\`
+```
 
 ## Other Useful Shortcuts
 
